@@ -27,7 +27,7 @@ function calc(){
 
             x_2 = primeiro_calc - raiz
             x22 = x_2 / divisor
-            res.innerHTML += `<p>x'' = ${primeiro_calc} + ${raiz}<br>-----<br>${divisor} </p>`
+            res.innerHTML += `<p>x'' = ${primeiro_calc} - ${raiz}<br>-----<br>${divisor} </p>`
             res.innerHTML += `<p>x'' = ${x_2}<br>----<br>${divisor} </p>`
             res.innerHTML += `<p>x'' = ${x22}`
         
